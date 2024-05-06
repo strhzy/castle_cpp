@@ -57,15 +57,15 @@ private:
     bool daycheck = true;
 public:
 
-    void birthrate_up() {
-        for (Ork i : Orks) {
-            i.birthrate_up();
+    void birthrate_upp() {
+        for (int i = 0; i < Orks.size() - 1; i++) {
+            Orks[i].birthrate_up();
         }
-        for (People i : Peoples) {
-            i.birthrate_up();
+        for (int i = 0; i < Peoples.size() - 1; i++) {
+            Peoples[i].birthrate_up();
         }
-        for (Elf i : Elfs) {
-            i.birthrate_up();
+        for (int i = 0; i < Elfs.size() - 1; i++) {
+            Elfs[i].birthrate_up();
         }
     }
 
@@ -95,41 +95,6 @@ public:
 
     void next_day()
     {
-        /*if (Peoples.size() == 1)
-        {
-            if (Peoples[0].saity == 0)
-            {
-                Peoples[0].hp -= 50;
-            }
-            Peoples[0].saity = 0;
-            if (Peoples[0].hp <= 0) {
-                Peoples.clear();
-            }
-        }
-        if (Orks.size() == 1)
-        {
-            
-            if (Orks[0].saity == 0)
-            {
-                Orks[0].hp -= 100;
-            }
-            Orks[0].saity = 0;
-            if (Orks[0].hp <= 0) {
-                Orks.clear();
-            }
-        }
-        if (Elfs.size() == 1)
-        {
-            
-            if (Elfs[0].saity == 0)
-            {
-                Elfs[0].hp -= 25;
-            }
-            Elfs[0].saity = 0;
-            if (Elfs[0].hp <= 0) {
-                Orks.clear();
-            }
-        }*/
         daycheck = true;
         for (int i = 0; i < Peoples.size()-1; i++)
         {
