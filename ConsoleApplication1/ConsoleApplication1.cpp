@@ -57,7 +57,7 @@ private:
     bool daycheck = true;
 public:
 
-    void birthrate_upp() {
+    void birthrate_up() {
         for (int i = 0; i < Orks.size() - 1; i++) {
             Orks[i].birthrate_up();
         }
