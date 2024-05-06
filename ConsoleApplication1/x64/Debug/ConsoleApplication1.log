@@ -1,0 +1,9 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Alex\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(333,2): warning C4091: static : пропускается слева от "fantasy_castles", когда ни одна переменная не объявлена
+C:\Users\Alex\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(73,28): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Alex\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(77,25): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Alex\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(81,25): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Alex\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(250,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Alex\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(263,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Alex\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(276,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  ConsoleApplication1.vcxproj -> C:\Users\Alex\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
